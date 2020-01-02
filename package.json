@@ -1,0 +1,31 @@
+{
+  "name": "muhurto",
+  "version": "1.0.0",
+  "description": "A(nother) library for date-time manipulation",
+  "main": "out/index.js",
+  "repository": "https://github.com/maacpiash/muhurto-js",
+  "author": {
+    "name": "Mohammad Abdul Ahad Chowdhury",
+    "email": "ahadc@maacpiash.com",
+    "url": "https://www.maacpiash.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint **/*.ts --fix"
+  },
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^13.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
+  },
+  "files": [
+    "out/*"
+  ]
+}
